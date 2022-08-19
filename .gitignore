@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Jetbrains Editors
+idea/
+
+# Mac
+.DS_Store
+
+# Node stuff if you install makdownlint locally
+/node_modules/
+package.json
+package-lock.json

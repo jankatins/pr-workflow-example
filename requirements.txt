@@ -1,0 +1,8 @@
+# Autogenerate from requirements.txt.in by 'make update-packages' at 2022-08-19T17:10
+# DO NOT CHANGE, changes will be overwritten!
+
+certifi==2022.6.15
+charset-normalizer==2.1.0
+idna==3.3
+requests==2.28.1
+urllib3==1.26.11
