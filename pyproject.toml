@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pr-workflow-example"
-version = "1.0.0"
+version = "1.0.1"
 description = "A stupid calculator (to use as an example repo for github PRs)"
 authors = [
     "Jan Katins <jasc@gmx.net>",
