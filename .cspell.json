@@ -1,0 +1,21 @@
+{
+  "language": "en",
+  "files": [
+    "**",
+    ".*/**"
+  ],
+  "ignorePaths": [
+    ".git",
+    ".gitignore",
+    "node_modules",
+    "package-lock.json"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "additional_words",
+      "path": ".github/additional_words",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["additional_words"]
+}
