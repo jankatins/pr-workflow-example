@@ -1,0 +1,36 @@
+name: Static Linters
+
+on:
+  pull_request:
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download actionlint
+        run: bash <(curl https://raw.githubusercontent.com/rhysd/actionlint/main/scripts/download-actionlint.bash)
+        shell: bash
+      - name: Check workflow files
+        run: ./actionlint -color
+        shell: bash
+
+  lint-cruft:
+    name: Check if automatic project update was successful
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fail if .rej files exist as structure update was not successful
+        run: test -z "$(find . -iname '*.rej')"
+
+  pre-commit:
+    runs-on: ubuntu-latest
+    # Only run in the latest code
+    concurrency:
+      group: markdown-${{ github.event.pull_request.number || github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./.github/actions/python-poetry-env
+        # Skipped checks are tested elsewhere
+      - run: SKIP=cspell,flake8,mypy poetry run pre-commit run --all-files

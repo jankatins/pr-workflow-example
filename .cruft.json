@@ -1,0 +1,18 @@
+{
+  "template": "https://github.com/woltapp/wolt-python-package-cookiecutter",
+  "commit": "6669a067eeaaed3bee84312428a3e94cd13295f2",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author_name": "Jan Katins",
+      "author_email": "jasc@gmx.net",
+      "github_username": "jankatins",
+      "project_name": "pr-workflow-example",
+      "project_slug": "pr-workflow-example",
+      "package_name": "calculator",
+      "project_short_description": "A stupid calculator (to use as an example repo for github PRs)",
+      "_template": "https://github.com/woltapp/wolt-python-package-cookiecutter"
+    }
+  },
+  "directory": null
+}
