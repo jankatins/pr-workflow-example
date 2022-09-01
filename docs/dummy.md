@@ -1,6 +1,6 @@
 # Example Text
 
-Just to give something to produce merge conflicts
+Just to give something to produce merge conflicts and show that it works.
 
 ## What is Lorem Ipsum?
 
