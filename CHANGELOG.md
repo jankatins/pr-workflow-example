@@ -7,7 +7,8 @@ to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 ### Fixed
-- the markdown linter now ignores the CHANGELOG.md file (the release workflow creates nice but not quite right markdown)
+- The markdown linter now ignores the CHANGELOG.md file (the release workflow creates nice but not quite right markdown)
+- Add some text in `docs/dummy.md` to make it easier to coordinate merge conflicts
 
 ## [1.0.0] - 2022-08-22
 ### Added
