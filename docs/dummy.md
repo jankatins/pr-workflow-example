@@ -9,7 +9,7 @@ C
 D
 E
 F
-Graph
+Graph: Here is some nice text.
 H
 I
 J
