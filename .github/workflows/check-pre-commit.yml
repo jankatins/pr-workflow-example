@@ -36,4 +36,4 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ./.github/actions/python-poetry-env
         # Skipped checks are tested elsewhere
-      - run: SKIP=cspell,flake8,mypy poetry run pre-commit run --all-files
+      - run: SKIP=cspell,ruff,mypy poetry run pre-commit run --all-files

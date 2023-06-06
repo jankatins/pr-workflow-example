@@ -1,5 +1,5 @@
 Aldus
-Bonorum
+automerge
 Bonorum
 capsys
 Clintock
@@ -64,6 +64,7 @@ trunkbaseddevelopment
 tryceratops
 ubuntu
 undoubtable
+unfixable
 unimported
 unparseable
 url
@@ -77,4 +78,7 @@ wolt
 woltapp
 workflow
 xml
+falsey
+mccabe
 yaml
+pydocstyle

@@ -1,5 +1,8 @@
-class ParseException(Exception):
-    pass
+"""A simple calculator."""
+
+
+class ParseError(Exception):
+    """The input could not be parsed."""
 
 
 def compute(problem_input: str) -> int:
@@ -7,4 +10,4 @@ def compute(problem_input: str) -> int:
     problem_input = problem_input.strip()
     if problem_input == "1 + 1":
         return 2
-    raise ParseException(f"Could not parse '{problem_input}'")
+    raise ParseError(f"Could not parse '{problem_input}'")
