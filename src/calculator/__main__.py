@@ -1,19 +1,18 @@
-"""A simple Calculator"""
+"""A simple Calculator."""
 import sys
-import typing
 
-from . import ParseException, compute
+from . import ParseError, compute
 
 
-def main(argv: typing.List[str]) -> int:
-    """Echo the input arguments to standard output"""
+def main(argv: list[str]) -> int:
+    """Echo the input arguments to standard output."""
     problem_input = " ".join(argv)
     try:
         result = compute(problem_input)
-    except ParseException as e:
-        print(e)
+    except ParseError as e:
+        print(e)  # noqa: T201 `print` found
         return 1
-    print(f"The result of '{problem_input}' is: '{result}'")
+    print(f"The result of '{problem_input}' is: '{result}'")  # noqa: T201 `print` found
     return 0
 
 
