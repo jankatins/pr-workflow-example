@@ -464,13 +464,13 @@ pytest = ">=4.0.0"
 
 [[package]]
 name = "python-kacl"
-version = "0.4.5"
+version = "0.4.6"
 description = "Python module and CLI tool for validating and modifying Changelogs in \"keep-a-changelog\" format\""
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "python-kacl-0.4.5.tar.gz", hash = "sha256:d9c174b3db6a661398f523d2bd902dbad0ac3dc6088dd114ce5b265d821eebe7"},
-    {file = "python_kacl-0.4.5-py3-none-any.whl", hash = "sha256:70f044f0d4cdab0bbee3e5616ec678ef8e470d81a9ccaeafe3d1eecbf314264e"},
+    {file = "python-kacl-0.4.6.tar.gz", hash = "sha256:01b85a307d063f53a0dd0c556f4ca32b284e6a28ba5b0824e0b8d9108df23a09"},
+    {file = "python_kacl-0.4.6-py3-none-any.whl", hash = "sha256:630bdde1b0d23817717b877eddfeb2eacd4889f54e9a39164180f29769a9c7c8"},
 ]
 
 [package.dependencies]
