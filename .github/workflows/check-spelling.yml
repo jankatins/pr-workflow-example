@@ -20,4 +20,4 @@ jobs:
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
-      - uses: streetsidesoftware/cspell-action@v4
+      - uses: streetsidesoftware/cspell-action@v5
