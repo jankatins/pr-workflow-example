@@ -1,4 +1,5 @@
 """A simple Calculator."""
+
 import sys
 
 from . import ParseError, compute

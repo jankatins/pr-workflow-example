@@ -1,4 +1,5 @@
 """Test the main function of the cli."""
+
 import pytest
 from calculator.__main__ import main
 

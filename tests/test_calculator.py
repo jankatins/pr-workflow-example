@@ -1,4 +1,5 @@
 """Basic tests for the calculator."""
+
 import pytest
 from calculator import ParseError, compute
 
