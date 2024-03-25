@@ -341,19 +341,33 @@ files = [
 ]
 
 [[package]]
+name = "pip"
+version = "24.0"
+description = "The PyPA recommended tool for installing Python packages."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "pip-24.0-py3-none-any.whl", hash = "sha256:ba0d021a166865d2265246961bec0152ff124de910c5cc39f1156ce3fa7c69dc"},
+    {file = "pip-24.0.tar.gz", hash = "sha256:ea9bd1a847e8c5774a5777bb398c19e80bcd4e2aa16a4b301b718fe6f593aba2"},
+]
+
+[[package]]
 name = "pipdeptree"
-version = "2.16.1"
+version = "2.16.2"
 description = "Command line utility to show dependency tree of packages."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pipdeptree-2.16.1-py3-none-any.whl", hash = "sha256:7131023df30220678b6a42c7372ce07453b39e0b3df935b129e832f0acf96b8a"},
-    {file = "pipdeptree-2.16.1.tar.gz", hash = "sha256:f1ca64ce4aff9373613711048b9c4e8106ad955dea0dd962b7974fa168d7650a"},
+    {file = "pipdeptree-2.16.2-py3-none-any.whl", hash = "sha256:4b60a20f632aa3449880141d1cd0bc99cb5f93ed46d54d689fd1c9b95f0e53d0"},
+    {file = "pipdeptree-2.16.2.tar.gz", hash = "sha256:96ecde8e6f40c95998491a385e4af56d387f94ff7d3b8f209aa34982a721bc43"},
 ]
+
+[package.dependencies]
+pip = ">=23.1.2"
 
 [package.extras]
 graphviz = ["graphviz (>=0.20.1)"]
-test = ["covdefaults (>=2.3)", "diff-cover (>=8.0.1)", "pip (>=23.3.1)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)", "virtualenv (>=20.25,<21)"]
+test = ["covdefaults (>=2.3)", "diff-cover (>=8.0.1)", "pytest (>=7.4.3)", "pytest-cov (>=4.1)", "pytest-mock (>=3.12)", "virtualenv (>=20.25,<21)"]
 
 [[package]]
 name = "platformdirs"
