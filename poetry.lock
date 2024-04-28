@@ -354,13 +354,13 @@ files = [
 
 [[package]]
 name = "pipdeptree"
-version = "2.18.1"
+version = "2.19.0"
 description = "Command line utility to show dependency tree of packages."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "pipdeptree-2.18.1-py3-none-any.whl", hash = "sha256:f0ae7786cf7f7eeed77b5bb756e0f44f2bfae2e8ae9a9739d8d75bbc8796d961"},
-    {file = "pipdeptree-2.18.1.tar.gz", hash = "sha256:cb6cacc5434dc04811bdc91d659622689107e60a163b79a5758e593577fdb875"},
+    {file = "pipdeptree-2.19.0-py3-none-any.whl", hash = "sha256:7aed067c3abb200c8be489ceac2e62972cb0aa75d7261efdabd5aec9bc7e28ea"},
+    {file = "pipdeptree-2.19.0.tar.gz", hash = "sha256:2051bc730fa878846ff3184c1b6b83d348f606cd1a92b9afca9709334d3d0c03"},
 ]
 
 [package.dependencies]
