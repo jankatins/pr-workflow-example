@@ -772,14 +772,14 @@ files = [
 
 [[package]]
 name = "pipdeptree"
-version = "2.31.0"
+version = "2.32.0"
 description = "Command line utility to show dependency tree of packages."
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "pipdeptree-2.31.0-py3-none-any.whl", hash = "sha256:8a85583ef755959bda23ff40f39b1f393d73e25d182cf9e9b21c818f3e3ece7d"},
-    {file = "pipdeptree-2.31.0.tar.gz", hash = "sha256:b3863e889761be597cc68cc38b3845f670ceab8d690f7b6728aa396d1e1be458"},
+    {file = "pipdeptree-2.32.0-py3-none-any.whl", hash = "sha256:d46c3abdfcc6d2d803db4c6fa8935b4688aad43c71ae3089bf7bbee0822a21d9"},
+    {file = "pipdeptree-2.32.0.tar.gz", hash = "sha256:0342e53df0df8e74d158bfa8bac01061725da4f05e204aebc5010b425ab9a926"},
 ]
 
 [package.dependencies]
@@ -788,6 +788,7 @@ pip = ">=25.2"
 
 [package.extras]
 graphviz = ["graphviz (>=0.21)"]
+rich = ["rich (>=14.3.3)"]
 test = ["covdefaults (>=2.3)", "diff-cover (>=9.7.1)", "pytest (>=8.4.2)", "pytest-cov (>=7)", "pytest-mock (>=3.15.1)", "virtualenv (>=20.34,<21)"]
 
 [[package]]
