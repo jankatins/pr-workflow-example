@@ -767,14 +767,14 @@ tests = ["pytest (>=9)", "typing-extensions (>=4.15)"]
 
 [[package]]
 name = "pipdeptree"
-version = "2.34.0"
+version = "2.35.0"
 description = "Command line utility to show dependency tree of packages."
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "pipdeptree-2.34.0-py3-none-any.whl", hash = "sha256:4f5b77c07871103f6cf3c402093263609cbfd4e2ce3402bc8b9a7e984b2c6265"},
-    {file = "pipdeptree-2.34.0.tar.gz", hash = "sha256:9a43a0b4a16a5cbc4e6ab02966dfd5411b949ff8c7cb1de7ade960bef2db3537"},
+    {file = "pipdeptree-2.35.0-py3-none-any.whl", hash = "sha256:a233057842b1fa93825993f14d7b155e3a771b6d182cace689c817c1d54b4783"},
+    {file = "pipdeptree-2.35.0.tar.gz", hash = "sha256:e6cb5213d5b4d2c50258ba86f4ae06ced653111c664fe088c379f3c9a4d41562"},
 ]
 
 [package.dependencies]
