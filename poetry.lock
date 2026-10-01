@@ -935,14 +935,14 @@ testing = ["covdefaults (>=2.3)", "coverage (>=7.5.4)", "pytest (>=8.3.5)", "pyt
 
 [[package]]
 name = "python-kacl"
-version = "0.7.3"
+version = "0.7.7"
 description = "Python module and CLI tool for validating and modifying Changelogs in \"keep-a-changelog\" format\""
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
 files = [
-    {file = "python_kacl-0.7.3-py3-none-any.whl", hash = "sha256:b1c1762c02cf70d980e216b0032fbdae134b795dd269d9cb402296c4592b3f0f"},
-    {file = "python_kacl-0.7.3.tar.gz", hash = "sha256:3f8a8ab29bbd40fe945a788ab707bbf8a5b73193a759d8e9f6fe9742bda3347f"},
+    {file = "python_kacl-0.7.7-py3-none-any.whl", hash = "sha256:b3c3b039550830d40e5083236cd50bc66a52ebec7dea8784e9abe553eea6347d"},
+    {file = "python_kacl-0.7.7.tar.gz", hash = "sha256:7024905096e68b94ef7418c5716e9ff5a01a91c23952378292a83b076cc29dec"},
 ]
 
 [package.dependencies]
